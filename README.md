@@ -13,7 +13,13 @@ Bus **001** Device **008**: ID 0ac8:3420 Z-Star Microelectronics Corp. Venus USB
 ### Execute the program with sudo privileges
 Make necessary substitution for `<Bus>` and `<Device>` ids as found by running the lsusb command:
 
-$ sudo  ./usbreset  /dev/bus/usb/**002**/**003**
+$ sudo  ./usbreset  /dev/bus/usb/**001**/**008*
+
+### Notes
+- It spends some seconds to finish the reset;
+- While the usbreset is running the lsusb command does not work (of course);
+- If you are running any application that uses the device, then temporarily it will lost the communication with it.
+- Probably you need to re-run your application, if this one is not able to re-detect the device.
 
 
 font: http://askubuntu.com/questions/645/how-do-you-reset-a-usb-device-from-the-command-line
