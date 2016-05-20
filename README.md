@@ -13,7 +13,7 @@ Bus **001** Device **008**: ID 0ac8:3420 Z-Star Microelectronics Corp. Venus USB
 ### Execute the program with sudo privileges
 Make necessary substitution for `<Bus>` and `<Device>` ids as found by running the lsusb command:
 
-$ sudo  ./usbreset  /dev/bus/usb/**001**/**008*
+$ sudo  ./usbreset  /dev/bus/usb/**001**/**008**
 
 ### Notes
 - It spends some seconds to finish the reset;
