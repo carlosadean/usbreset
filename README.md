@@ -20,6 +20,6 @@ $ sudo  ./usbreset  /dev/bus/usb/**001**/**008**
 - While the usbreset is running the lsusb command does not work (of course);
 - If you are running any application that uses the device, then temporarily it will lost the communication with it.
 - Probably you need to re-run your application, if this one is not able to re-detect the device.
-- I'm not sure if that can somehow damage your equipment
+- I'm not sure if it can somehow damage your equipment
 
 font: http://askubuntu.com/questions/645/how-do-you-reset-a-usb-device-from-the-command-line
