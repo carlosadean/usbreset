@@ -1,5 +1,5 @@
 # usbreset
-This simple application simulates the plug/unplug of a usb device
+This simple application simulates the plug/unplug of a usb device.
 
 ### How to compile?
 $ gcc -o usbreset usbreset.c
